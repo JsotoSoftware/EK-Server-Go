@@ -23,3 +23,32 @@ go.work.sum
 
 # env file
 .env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+logs/
+
+# Debug files
+debug
+debug.test
+
+# Local development specific files
+tmp/
+temp/
+dist/
+build/
+
+# Air live reload
+.air.toml
+tmp/
